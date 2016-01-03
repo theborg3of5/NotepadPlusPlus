@@ -1,0 +1,62 @@
+<NotepadPlus>
+    <InternalCommands>
+        <Shortcut id="41014" Ctrl="yes" Alt="no" Shift="no" Key="82" />
+        <Shortcut id="41008" Ctrl="yes" Alt="no" Shift="yes" Key="83" />
+        <Shortcut id="41007" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="41017" Ctrl="no" Alt="no" Shift="no" Key="113" />
+        <Shortcut id="42012" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="42013" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="42014" Ctrl="no" Alt="yes" Shift="no" Key="38" />
+        <Shortcut id="42015" Ctrl="no" Alt="yes" Shift="no" Key="40" />
+        <Shortcut id="42034" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="42016" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="42017" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="42022" Ctrl="yes" Alt="no" Shift="yes" Key="67" />
+        <Shortcut id="42035" Ctrl="yes" Alt="no" Shift="no" Key="186" />
+        <Shortcut id="42036" Ctrl="yes" Alt="no" Shift="yes" Key="186" />
+        <Shortcut id="42023" Ctrl="yes" Alt="no" Shift="no" Key="81" />
+        <Shortcut id="42047" Ctrl="yes" Alt="no" Shift="yes" Key="81" />
+        <Shortcut id="42026" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="42027" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="43002" Ctrl="yes" Alt="no" Shift="no" Key="71" />
+        <Shortcut id="43010" Ctrl="yes" Alt="no" Shift="yes" Key="71" />
+        <Shortcut id="43013" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="43014" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="43015" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="43048" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="43049" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="43046" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="43047" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="43045" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="43011" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="43004" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="43006" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="43005" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="43007" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="44009" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="47000" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="47008" Ctrl="no" Alt="no" Shift="no" Key="0" />
+    </InternalCommands>
+    <Macros />
+    <UserDefinedCommands>
+        <Command name="Launch in Firefox" Ctrl="no" Alt="no" Shift="no" Key="0">firefox &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+        <Command name="Launch in IE" Ctrl="no" Alt="no" Shift="no" Key="0">iexplore &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+        <Command name="Launch in Chrome" Ctrl="no" Alt="no" Shift="no" Key="0">chrome &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+        <Command name="Launch in Safari" Ctrl="no" Alt="no" Shift="no" Key="0">safari &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+        <Command name="Get php help" Ctrl="no" Alt="no" Shift="no" Key="0">http://www.php.net/$(CURRENT_WORD)</Command>
+        <Command name="Google Search" Ctrl="no" Alt="no" Shift="no" Key="0">https://www.google.com/search?q=$(CURRENT_WORD)</Command>
+        <Command name="Wikipedia Search" Ctrl="no" Alt="no" Shift="no" Key="0">https://en.wikipedia.org/wiki/Special:Search?search=$(CURRENT_WORD)</Command>
+        <Command name="Open file" Ctrl="no" Alt="no" Shift="no" Key="0">$(NPP_DIRECTORY)\notepad++.exe $(CURRENT_WORD)</Command>
+        <Command name="Open in another instance" Ctrl="no" Alt="no" Shift="no" Key="0">$(NPP_DIRECTORY)\notepad++.exe $(CURRENT_WORD) -nosession -multiInst</Command>
+        <Command name="Send via Outlook" Ctrl="no" Alt="no" Shift="no" Key="0">outlook /a &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+    </UserDefinedCommands>
+    <PluginCommands>
+        <PluginCommand moduleName="ComparePlugin.dll" internalID="0" Ctrl="no" Alt="yes" Shift="no" Key="68" />
+        <PluginCommand moduleName="ComparePlugin.dll" internalID="1" Ctrl="yes" Alt="no" Shift="yes" Key="68" />
+        <PluginCommand moduleName="ComparePlugin.dll" internalID="3" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <PluginCommand moduleName="ComparePlugin.dll" internalID="4" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <PluginCommand moduleName="ComparePlugin.dll" internalID="11" Ctrl="yes" Alt="no" Shift="no" Key="38" />
+        <PluginCommand moduleName="ComparePlugin.dll" internalID="12" Ctrl="yes" Alt="no" Shift="no" Key="40" />
+    </PluginCommands>
+    <ScintillaKeys />
+</NotepadPlus>

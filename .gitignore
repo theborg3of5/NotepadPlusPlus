@@ -2,3 +2,4 @@
 /plugins/config/PluginManager*
 /themes/*
 config.xml
+session.xml
