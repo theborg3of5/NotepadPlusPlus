@@ -13,7 +13,7 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="1047" y="83" width="623" height="770" isMaximized="no" />
+        <GUIConfig name="AppPosition" x="152" y="97" width="623" height="770" isMaximized="yes" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
@@ -54,7 +54,7 @@
                                 2 : verbose backup
                       -->
         <GUIConfig name="Backup" action="0" useCustumDir="no" dir="" isSnapshotMode="yes" snapshotBackupTiming="7000" />
-        <GUIConfig name="TaskList">yes</GUIConfig>
+        <GUIConfig name="TaskList">no</GUIConfig>
         <GUIConfig name="SaveOpenFileInSameDir">no</GUIConfig>
         <!--
 			value 0 for the folloing parameters means invisible :
@@ -100,19 +100,7 @@
     </GUIConfigs>
     <!-- The History of opened files list -->
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no" />
-    <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="C:\Program Files (x86)\Notepad++\change.log" />
-        <File filename="C:\Users\thebo\ahk\.todo" />
-        <File filename="D:\My Documents\My Life\My Writing\Neo\Stable role play.doc" />
-        <File filename="D:\My Documents\My Life\My Writing\Neo\Vamp....doc" />
-        <File filename="D:\My Documents\My Life\My Writing\Neo\Wolf\Wolf RP.doc" />
-        <File filename="C:\Users\thebo\Documents\AutoHotkey\Lib\autoInclude.ahk" />
-        <File filename="C:\Users\thebo\ahk\source\setup\setup.ahk" />
-        <File filename="C:\Users\thebo\ahk\source\standalone\gitHelper\gitHelper.ahk" />
-        <File filename="C:\Users\thebo\ahk\resources\zip\gitHelper.ahk" />
-        <File filename="C:\Users\thebo\ahk\source\startup\borg.ahk" />
-        <File filename="C:\Users\thebo\ahk\source\experiments\test.ahk" />
-    </History>
+    <History nbMaxFile="15" inSubMenu="no" customLength="-1" />
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
         <ProjectPanel id="1" workSpaceFile="" />
