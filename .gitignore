@@ -1,1 +1,4 @@
 /backup
+/plugins/config/PluginManager*
+/themes/*
+config.xml
